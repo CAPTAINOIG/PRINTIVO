@@ -1,0 +1,416 @@
+/* * { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+d
+}
+/* .contaidms: c
+} */
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.DivOne {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 239, 239);
+    height:60px;
+}
+span {
+    position: relative;
+    top: -70px;
+    left: -41%;
+}
+.menu {
+    background-color: white;
+    color: black;
+    width: 50px;
+    display: none;
+}
+
+
+#mid{
+    list-style: none;
+    height: 20px;
+    margin-top: 0px;
+}
+#mix {
+    margin-top: 30px;
+    list-style-type: none;
+}
+/* #div1{
+    margin-right: -00px;
+}
+#div2 {
+    margin-left: -150px;
+}
+#div3 {
+    margin-left: -200px;
+} */
+
+
+.nav {
+    display: flex;
+    border: px solid;
+    background-color: rgb(236, 232, 217);
+    width: 100%;
+    padding-left: 40px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 40px;
+}
+.major {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.quality {
+    font-size: 60px;
+}
+.ship {
+    font-size: 26px;
+    position: relative;
+    top: -35px;
+    left: 20px;
+
+}
+.what {
+    position: relative;
+    top: -20px;
+    left: 20px;
+
+}
+.microsoft {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 232, 217);
+    height: 380px;
+    padding-left: 60px;
+}
+
+input {
+    border: px solid black;
+    width: 45vw;
+    margin-left: 10px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.ima {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+.popular {
+    display: flex;
+    justify-content: space-between;
+
+}
+.kk {
+    position: absolute;
+    left: 1077px;
+    top: 88%;
+    color: brown;
+    font-size: large;
+}
+h2 {
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    font-size: x-large;
+    padding: 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 100px;
+    gap: 20px;
+    margin-left: -40px;
+    width: 20px;
+    
+    
+}
+
+.grid-item {
+    border: px solid red;
+    height: 360px;
+    background-color: white;
+    box-shadow: 1px 0px 2px  0px black;
+    cursor: pointer;
+    width: 270px;
+}
+button {
+    color: white;
+    background-color: rgb(163, 72, 72);
+    height: 40px;
+    width: 200px;
+    border: 0px solid brown;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.mil:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#mij:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.One:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Two:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Three:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Four:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Five:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Six:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Eight:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.printivo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cast:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.grid-item:nth-child(1){
+}
+
+.grid-item:nth-child(2){
+    background-color: white;
+}
+
+
+
+.aria {
+    display: flex;
+    justify-content: space-between;
+}
+.popular {
+    padding-left: 60px;
+    font-size: x-large;
+    font-weight: lighter; 
+}
+.off {
+    color: red;
+    position: absolute;
+    left: 1077px;
+
+}
+
+#apple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+}
+
+.apple {
+    border: px solid red;
+    height: 360px;
+    width: 300px;
+    box-shadow: 1px 0px 2px  0px black;
+    cursor: pointer;
+}
+.apple:nth-child(2) {
+    position: absolute;
+    left: 380px;
+}
+
+.source:hover {
+    transform: scale(0.9);
+}
+.receiver:hover {
+    transform: scale(0.9, 0.9);
+}
+#niger {
+    position: relative;
+    left: 60px;
+}
+#linux {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 60px;
+}
+.twitter {
+    border: 0px solid ;
+    height: 170px;
+    margin-top: 100px;
+    width: 350px;
+    box-shadow: 1px 0px 2px  0px black;
+    cursor: pointer;
+    background-color: white;
+}
+.tweet {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.tit {
+    border: 0px solid ;
+    height: 170px;
+    margin-top: 100px;
+    width: 350px;
+    box-shadow: 1px 0px 2px  0px black;
+    cursor: pointer;
+    background-color: white;
+}
+.tet {
+    float: left;
+    position: absolute;
+    top: 438%;
+    left: 70%;
+    
+}
+.ebe {
+     position: absolute;
+     left: 75%;
+     top: 435%;
+}
+.ebele {
+    padding-left: 60px;
+}
+.con {
+    position: absolute;
+    top: 420%;
+    font-size: 30px;
+    left: 50px;
+}
+.tent {
+    border: px solid yellow;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 140px;
+    background-color: rgb(205, 219, 219);
+}
+
+.face {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 60px;
+}
+.count {
+    border: 0px solid ;
+    height: 170px;
+    margin-top: 100px;
+    width: 350px;
+    cursor: pointer;
+    background-color: white;
+}
+.zoom {
+    position: absolute;
+    top: 480%;
+    font-size: 30px;
+    left: 50px;
+}
+.fast {
+    float: right;
+}
+.java {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+.vee {
+    background-color: whitesmoke;
+    padding: 60px;
+}
+#doom {
+    font-size: 30px;
+}
+.cus {
+    display: flex;
+    gap: 20px;
+    height: 20vh;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.aba:nth-child(1) {
+    height: 20%;
+    width: 20%;
+}
+.aba:nth-child(2) {
+    height: 20%;
+    width: 20%;
+}
+.aba:nth-child(3) {
+    height: 20%;
+    width: 20%;
+}
+.aba:nth-child(4) {
+    height: 20%;
+    width: 20%;
+}
+.aba:nth-child(5) {
+    height: 20%;
+    width: 20%;
+}
+#mix {
+    text-decoration: underline;
+}
+
+th {
+    color: white;
+}
+    table, tr{
+        border: 0px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #384875;
+        height: 30px;
+    }
+    td {
+        color: white;
+    } 
+    tr,td {
+        padding-left: 80px;
+    }
+
+
+    
+
+
+
+
+
