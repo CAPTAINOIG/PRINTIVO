@@ -7,11 +7,13 @@
         justify-content: space-around;
         background-color: rgb(247, 246, 244);
         height:60px;
-        width: 68%;
+        width: 100%;
         position: fixed;
+        z-index: 1;
     }
     .great {
         margin-left: -10px;
+        margin-top: 40px;
         font-size: 10px;
     }
     .mid1 {
@@ -22,12 +24,11 @@
         font-size: 10px;
     }
     .need {
-        margin-left: -50px;
-        margin-top: -10px;
+        margin-left: 50px;
+        margin-top: -100px;
     }
     .mmm {
-        margin-left: -px;
-        display: none;
+        margin-left: 10px;
     }
     .skill {
         position: relative;
@@ -50,15 +51,15 @@
         display: flex;
         justify-content: space-between;
         background-color: rgb(236, 232, 217);
-        height: 380px;
-        width: 70%;
+        height: 400px;
+        width: 85%;
         padding-left: 60px;
     }
     .nav {
         display: flex;
         border: px solid;
         background-color: rgb(236, 232, 217);
-        width: 70%;
+        width: 90%;
         padding-left: 40px;
         padding-top: 60px;
         
@@ -92,7 +93,7 @@
     }
     input {
         border: px solid black;
-        width: 80vw;
+        width: 90vw;
         margin-left: -50px;
         height: 60px;
         margin-top: 10px;
@@ -101,6 +102,10 @@
         position: absolute;
         left: -400px;
         top: -70px;
+    }
+    h2 {
+        margin-top: -130px;
+        margin-left: 80px;
     }
     .kk {
         position: absolute;
@@ -118,8 +123,8 @@
         grid-template-columns: 1fr;
         padding: 100px;
         gap: 20px;
-        margin-left: -80px;
-        width: 20px;  
+        margin-left: -15px;
+        width: 100%;  
     }
     .off {
         color: red;
@@ -130,9 +135,14 @@
     #apple {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: -50px;
+        margin-left: 30px;
         padding: 50px;
        
+    }
+    .apple:nth-child(2) {
+        position: absolute;
+        left: 390px;
+        top: 100%;
     }
     .popular {
         margin-top: -50px;
@@ -161,14 +171,14 @@
     }
     #wu {
         position: absolute;
-        top: 860%;
-        left: 0%;
+        top: 655%;
+        left: 20%;
     }
     .twitter {
         border: 0px solid ;
         height: 200px;
         margin-top: -10px;
-        width: 250px;
+        width: 350px;
         margin-left: -40px;
         box-shadow: 1px 0px 2px  0px black;
         cursor: pointer;
@@ -177,7 +187,7 @@
     #hi {
         margin-top: 10px;
         margin-left: -40px;
-        width: 100%;
+        width: 350px;
     }
     #h {
         background-color: red;
@@ -199,7 +209,7 @@
     .ebe {
          position: absolute;
          left: 11%;
-         top: 1040%;
+         top: 795%;
          height: 20%;
     }
     .tit {
@@ -213,7 +223,7 @@
     }
     .zoom {
         position: absolute;
-        top: 1065%;
+        top: 840%;
         font-size: 20px;
         left: 20px;
     }
