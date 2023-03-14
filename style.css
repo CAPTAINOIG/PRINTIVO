@@ -6,7 +6,7 @@ body {
 .DivOne {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(245, 239, 239);
+    background-color: rgb(247, 246, 244);
     height:60px;
     width: 100%;
     position: fixed;
@@ -58,18 +58,21 @@ a {
 }
 .quality {
     font-size: 60px;
+    color: rgb(56, 74, 98);
 }
 .ship {
     font-size: 26px;
     position: relative;
     top: -35px;
     left: 20px;
+    color: rgb(112, 128, 149);
 
 }
 .what {
     position: relative;
     top: -20px;
     left: 20px;
+    color: rgb(56, 74, 98);
 
 }
 .microsoft {
@@ -90,7 +93,7 @@ input {
 .mm {
     position: absolute;
     left: -560px;
-    top: -10px;
+    top: 10px;
 }
 
 .ima {
@@ -205,8 +208,6 @@ button {
     background-color: white;
 }
 
-
-
 .aria {
     display: flex;
     justify-content: space-between;
@@ -239,7 +240,7 @@ button {
 .apple:nth-child(2) {
     position: absolute;
     left: 390px;
-    top: 308%;
+    top: 320%;
 }
 
 .source:hover {
@@ -284,14 +285,14 @@ button {
 .tet {
     float: left;
     position: absolute;
-    top: 460%;
+    top: 475%;
     left: 68%;
     
 }
 .ebe {
      position: absolute;
      left: 71%;
-     top: 459%;
+     top: 475%;
 }
 .ebele {
     padding-left: 60px;
@@ -385,22 +386,17 @@ button {
     text-decoration: underline;
 }
 
-th {
-    color: white;
+
+#fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(56, 74, 98);
+   
 }
-    table, tr{
-        border: 0px solid black;
-        border-collapse: collapse;
-        width: 100%;
-        background-color: #384875;
-        height: 30px;
-    }
-    td {
-        color: white;
-    } 
-    tr,td {
-        padding-left: 80px;
-    }
+
+.fad {
+   color: white;
+}
 
 
     
